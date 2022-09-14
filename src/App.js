@@ -4,6 +4,10 @@ import Home from './AppPages/Home';
 import About from './AppPages/About';
 import Contact from './AppPages/Contact';
 import Forms from './AppPages/Forms';
+import Insurances from './AppPages/Insurances';
+import Admin from './AppPages/Admin';
+import Dashboard from './AppPages/Dashboard';
+import Forms2 from './AppPages/Forms2';
 
 function App() {
   return (
@@ -13,8 +17,12 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/forms" element={<Forms />} />
+              <Route path="/services" element={<Forms />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/insurances" element={<Insurances />} />
+              <Route path="/admin" element={<Admin />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/forms" element={<Forms2 />} />
           </Routes>
       </BrowserRouter>
     </>

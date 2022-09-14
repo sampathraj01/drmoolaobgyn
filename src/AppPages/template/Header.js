@@ -25,6 +25,9 @@ const Header = () => {
     let colorChange2 = 'black';
     let colorChange3 = 'black';
     let colorChange4 = 'black';
+    let colorChange5 = 'black';
+    let colorChange6 = 'black';
+    let colorChange7 = 'black';
 
     if (window.location.pathname == "/" || window.location.pathname == "/home") {
         colorChange = '#18a3eb';
@@ -35,8 +38,17 @@ const Header = () => {
     if (window.location.pathname == "/contact") {
         colorChange3 = '#18a3eb';
     }
-    if (window.location.pathname == "/forms") {
+    if (window.location.pathname == "/services") {
         colorChange4 = '#18a3eb';
+    }
+    if (window.location.pathname == "/insurances") {
+        colorChange5 = '#18a3eb';
+    }
+    if (window.location.pathname == "/forms") {
+        colorChange6 = '#18a3eb';
+    }
+    if (window.location.pathname == "/admin") {
+        colorChange7 = '#18a3eb';
     }
 
     const responsiveMob = () => {
@@ -106,14 +118,16 @@ const Header = () => {
                     <div className="row">
                         <div className="col-12 d-flex flex-wrap justify-content-between align-items-center">
                             <div className="site-branding d-flex align-items-center">
-                                <a className="d-block" href="/"><img className="d-block" src="../assets/images/Company_Business_Logo.png" style={{ width: "250px" }} alt="logo" /></a>
+                                <a className="d-block" href="/"><img className="d-block" src="../assets/images/Company_Business_Logo.png" style={{ width: "200px" }} alt="logo" /></a>
                             </div>
                             <nav className="site-navigation d-flex justify-content-end align-items-center" id="responsiveMob2">
                                 <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
-                                    <li><a href="/" style={{ color: colorChange }}>Home</a></li>
-                                    <li><a href="/about" style={{ color: colorChange2 }}>About us</a></li>
-                                    <li><a href="/forms" style={{ color: colorChange4 }}>Forms</a></li>
-                                    <li><a href="/contact" style={{ color: colorChange3 }}>Contact</a></li>
+                                    <li><a href="/about" style={{ color: colorChange2,fontSize: "13px" }}>About us</a></li>
+                                    <li><a href="/services" style={{ color: colorChange4,fontSize: "13px" }}>Services</a></li>
+                                    <li><a href="/insurances" style={{ color: colorChange5,fontSize: "13px" }}>Insurances</a></li>
+                                    <li><a href="/forms" style={{ color: colorChange6,fontSize: "13px" }}>Forms</a></li>
+                                    <li><a href="/contact" style={{ color: colorChange3,fontSize: "13px" }}>Contact</a></li>
+                                    <li><a href="/admin" style={{ color: colorChange7,fontSize: "13px" }}>Admin</a></li>
                                     <li className="call-btn button gradient-bg mt-3 mt-md-0">
                                         <a className="d-flex justify-content-center align-items-center" href="#"><img src="../assets/images/emergency-call.png" /> (951) 732-7834</a>
                                     </li>

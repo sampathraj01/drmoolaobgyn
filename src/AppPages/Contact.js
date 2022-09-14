@@ -81,7 +81,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="contact-page-map">
-                                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.524169745789!2d-117.44298218574222!3d33.927644131735185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcb0db020a1493%3A0x425da6a37222dad4!2sDr.%20Moola%20and%20Dr.%20Trivedi%20(OB%26GYN)!5e0!3m2!1sen!2sin!4v1661775407036!5m2!1sen!2sin" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                             </div>
                         </div>
                     </div>
