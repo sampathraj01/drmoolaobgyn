@@ -8,6 +8,7 @@ import Insurances from './AppPages/Insurances';
 import Admin from './AppPages/Admin';
 import Dashboard from './AppPages/Dashboard';
 import Forms2 from './AppPages/Forms2';
+import Hospitals from './AppPages/Hospitals';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
               <Route path="/insurances" element={<Insurances />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/forms" element={<Forms2 />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/hospitals" element={<Hospitals />} />
           </Routes>
       </BrowserRouter>
     </>

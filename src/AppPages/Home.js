@@ -110,48 +110,13 @@ const Home = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="our-departments-wrap">
-                                <h2>Our Departments</h2>
+                                <h2 style={{marginBottom: "0px"}}>Save Soil</h2>
                                 <div className="row">
-                                    <div className="col-12 col-md-6 col-lg-4">
+                                    <div className="col-12 col-md-12 col-lg-12">
                                         <div className="our-departments-cont">
-                                            <header className="entry-header d-flex flex-wrap align-items-center">
-                                                <img src="../assets/images/cardiogram.png" alt="" />
-                                                <h3>Cardioology</h3>
-                                            </header>
                                             <div className="entry-content">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</p>
+                                                <p>Conscious Planet is an effort to raise human consciousness and bring a sense of inclusiveness such that multifarious activities of our societies move into a conscious mode. An effort to align human activity to be supportive of nature and all life on our planet. Our work is towards creating a planet where a large number of Human Beings act consciously, governments are elected consciously, where ecological issues become election issues in the world.</p>
                                             </div>
-                                            <footer className="entry-footer">
-                                                <a href="#">read more</a>
-                                            </footer>
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-md-6 col-lg-4">
-                                        <div className="our-departments-cont">
-                                            <header className="entry-header d-flex flex-wrap align-items-center">
-                                                <img src="../assets/images/stomach-2.png" alt="" />
-                                                <h3>Gastroenterology</h3>
-                                            </header>
-                                            <div className="entry-content">
-                                                <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
-                                            </div>
-                                            <footer className="entry-footer">
-                                                <a href="#">read more</a>
-                                            </footer>
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-md-6 col-lg-4">
-                                        <div className="our-departments-cont">
-                                            <header className="entry-header d-flex flex-wrap align-items-center">
-                                                <img src="../assets/images/blood-sample-2.png" alt="" />
-                                                <h3>Medical Lab</h3>
-                                            </header>
-                                            <div className="entry-content">
-                                                <p>Lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus.</p>
-                                            </div>
-                                            <footer className="entry-footer">
-                                                <a href="#">read more</a>
-                                            </footer>
                                         </div>
                                     </div>
                                 </div>

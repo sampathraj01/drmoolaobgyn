@@ -28,6 +28,7 @@ const Header = () => {
     let colorChange5 = 'black';
     let colorChange6 = 'black';
     let colorChange7 = 'black';
+    let colorChange8 = 'black';
 
     if (window.location.pathname == "/" || window.location.pathname == "/home") {
         colorChange = '#18a3eb';
@@ -49,6 +50,9 @@ const Header = () => {
     }
     if (window.location.pathname == "/admin") {
         colorChange7 = '#18a3eb';
+    }
+    if (window.location.pathname == "/hospitals") {
+        colorChange8 = '#18a3eb';
     }
 
     const responsiveMob = () => {
@@ -126,9 +130,10 @@ const Header = () => {
                                     <li><a href="/services" style={{ color: colorChange4,fontSize: "13px" }}>Services</a></li>
                                     <li><a href="/insurances" style={{ color: colorChange5,fontSize: "13px" }}>Insurances</a></li>
                                     <li><a href="/forms" style={{ color: colorChange6,fontSize: "13px" }}>Forms</a></li>
+                                    <li><a href="/hospitals" style={{ color: colorChange8,fontSize: "13px" }}>Hospitals</a></li>
                                     <li><a href="/contact" style={{ color: colorChange3,fontSize: "13px" }}>Contact</a></li>
                                     <li><a href="/admin" style={{ color: colorChange7,fontSize: "13px" }}>Admin</a></li>
-                                    <li className="call-btn button gradient-bg mt-3 mt-md-0">
+                                    <li className="call-btn button gradient-bg mt-3 mt-md-0" style={{minWidth: "0px"}}>
                                         <a className="d-flex justify-content-center align-items-center" href="#"><img src="../assets/images/emergency-call.png" /> (951) 732-7834</a>
                                     </li>
                                 </ul>
