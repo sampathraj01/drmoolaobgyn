@@ -23,7 +23,7 @@ function App() {
               <Route path="/insurances" element={<Insurances />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/forms" element={<Forms2 />} />
               <Route path="/hospitals" element={<Hospitals />} />
           </Routes>
       </BrowserRouter>
