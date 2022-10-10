@@ -22,7 +22,7 @@ const TermsCondition = () => {
       <div className="privacy-area ptb-100">
         <div className="container">
           <div className="row align-items-end">
-            <div className="col-12 col-lg-12">
+            <div className="col-12 col-lg-12 col-md-12">
               <h6 style={{ fontSiZe: '16px' }}>
                 <p style={{ fontWeight: '700' }}>
                   Dr. Sudha Moola is affiliated with these hospitals.

@@ -13,10 +13,10 @@ const SignIn = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Sign In"
+        pageTitle="Admin"
         homePageUrl="/index-3"
         homePageText="Home"
-        activePageText="Sign In"
+        activePageText="Admin"
         bgImage="page-title-one"
       />
 
@@ -32,7 +32,7 @@ const SignIn = () => {
             <div className="col-lg-6 ptb-100">
               <div className="signup-item">
                 <div className="signup-head">
-                  <h2>Login Here</h2>
+                  <h2>Admin Login</h2>
                   <p>
                     Didn't you account yet?{' '}
                     <Link href="/sign-up">
@@ -43,16 +43,16 @@ const SignIn = () => {
                 <div className="signup-form">
                   <form>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-lg-8">
                         <div className="form-group">
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="First Name"
+                            placeholder="User Name"
                           />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      {/* <div className="col-lg-6">
                         <div className="form-group">
                           <input
                             type="email"
@@ -60,8 +60,8 @@ const SignIn = () => {
                             placeholder="Your Email"
                           />
                         </div>
-                      </div>
-                      <div className="col-lg-6">
+                      </div> */}
+                      {/* <div className="col-lg-6">
                         <div className="form-group">
                           <input
                             type="password"
@@ -69,13 +69,13 @@ const SignIn = () => {
                             placeholder="Password"
                           />
                         </div>
-                      </div>
-                      <div className="col-lg-6">
+                      </div> */}
+                      <div className="col-lg-8">
                         <div className="form-group">
                           <input
                             type="password"
                             className="form-control"
-                            placeholder="Confirm Password"
+                            placeholder="Password"
                           />
                         </div>
                       </div>

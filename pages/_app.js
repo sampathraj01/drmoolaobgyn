@@ -1,5 +1,6 @@
 import '../public/css/bootstrap.min.css'
 import '../public/css/animate.css'
+import '../public/css/forms.css'
 import '../public/css/icofont.min.css'
 import '../public/css/meanmenu.css'
 import 'react-tabs/style/react-tabs.css'
@@ -9,14 +10,14 @@ import '../public/css/style.css'
 import '../public/css/responsive.css'
 import '../public/css/rtl.css'
 
-import Layout from '../components/_App/Layout';
+import Layout from '../components/_App/Layout'
 
-const MyApp =  ({ Component, pageProps }) => {
-    return (
-        <Layout>
-            <Component {...pageProps} />
-        </Layout>
-    )
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
 
 export default MyApp

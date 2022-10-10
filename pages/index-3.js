@@ -1,31 +1,31 @@
-import React from 'react';
-import TopHeader from '../components/_App/TopHeader';
-import Navbar from '../components/_App/Navbar';
-import MainBanner from '../components/HomeThree/MainBanner';
-import AboutOurHospital from '../components/HomeThree/AboutOurHospital';
-import OurExpertise from '../components/HomeThree/OurExpertise';
-import Services from '../components/HomeThree/Services';
-import AboutUs from '../components/HomeThree/AboutUs';
-import VideoIntro from '../components/Common/VideoIntro';
-import OurDoctors from '../components/Common/OurDoctors';
-import Stats from '../components/HomeThree/Stats';
-import FeedbackSlider from '../components/HomeThree/FeedbackSlider';
-import LatestBlogPost from '../components/Common/LatestBlogPost';
-import NewsletterForm from '../components/Common/NewsletterForm';
-import Footer from '../components/_App/Footer';
+import React from 'react'
+import TopHeader from '../components/_App/TopHeader'
+import Navbar from '../components/_App/Navbar'
+import MainBanner from '../components/HomeThree/MainBanner'
+import AboutOurHospital from '../components/HomeThree/AboutOurHospital'
+import OurExpertise from '../components/HomeThree/OurExpertise'
+import Services from '../components/HomeThree/Services'
+import AboutUs from '../components/HomeThree/AboutUs'
+import VideoIntro from '../components/Common/VideoIntro'
+import OurDoctors from '../components/Common/OurDoctors'
+import Stats from '../components/HomeThree/Stats'
+import FeedbackSlider from '../components/HomeThree/FeedbackSlider'
+import LatestBlogPost from '../components/Common/LatestBlogPost'
+import NewsletterForm from '../components/Common/NewsletterForm'
+import Footer from '../components/_App/Footer'
 
 const Index3 = () => {
-    return (
-        <>
-            <TopHeader />
+  return (
+    <>
+      <TopHeader />
 
-            <Navbar />
+      <Navbar />
 
-            <MainBanner />
+      <MainBanner />
 
-            <AboutOurHospital />
+      {/* <AboutOurHospital /> */}
 
-            <OurExpertise />
+      {/* <OurExpertise />
 
             <Services />
 
@@ -43,11 +43,11 @@ const Index3 = () => {
 
             <LatestBlogPost />
 
-            <NewsletterForm />
-            
-            <Footer />
-        </>
-    )
+            <NewsletterForm /> */}
+
+      <Footer />
+    </>
+  )
 }
 
-export default Index3;
+export default Index3

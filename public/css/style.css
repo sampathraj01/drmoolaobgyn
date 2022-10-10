@@ -4974,4 +4974,9 @@ footer {
 .faq-content .accordion .accordion__panel p {
   color: #344c5d;
 }
+.form-button{
+  font-size:larger;
+  border-radius: 14px;
+  /* padding: 40px 70px; */
+}
 /*# sourceMappingURL=style.css.map */

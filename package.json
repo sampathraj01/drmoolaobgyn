@@ -2,7 +2,7 @@
     "name": "disin",
     "version": "1.3.0",
     "description": "Disin - React Next Medical Health & Doctors Template",
-    "main": "index.js",
+    "main": "index3.js",
     "scripts": {
         "dev": "next dev",
         "build": "next build",

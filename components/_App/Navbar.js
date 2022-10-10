@@ -130,35 +130,6 @@ const Navbar = () => {
                   </Link>
                 </li>
 
-                {/* <li className="nav-item">
-                  <Link href="#">
-                    <a
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
-                    >
-                      Services
-                    </a>
-                  </Link>
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link href="/services" activeClassName="active">
-                        <a onClick={toggleNavbar} className="nav-link">
-                          Services
-                        </a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/service-details" activeClassName="active">
-                        <a onClick={toggleNavbar} className="nav-link">
-                          Service Details
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
-                </li> */}
-
                 <li className="nav-item">
                   <Link href="/privacy-policy" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
@@ -168,7 +139,7 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/about" activeClassName="active">
+                  <Link href="/services" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
                       Forms
                     </a>
@@ -176,12 +147,41 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
+                  <Link href="#">
+                    <a
+                      onClick={(e) => e.preventDefault()}
+                      className="nav-link dropdown-toggle"
+                    >
+                      Hospitals
+                    </a>
+                  </Link>
+
+                  <ul className="dropdown-menu">
+                    <li className="nav-item">
+                      <Link href="/terms-condition" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link">
+                          Hospitals
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="/testimonials" activeClassName="active">
+                        <a onClick={toggleNavbar} className="nav-link">
+                          Our Office
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+
+                {/* <li className="nav-item">
                   <Link href="/terms-condition" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
                       Hospital
                     </a>
                   </Link>
-                </li>
+                </li> */}
 
                 {/* <li className="nav-item">
                   <Link href="#">

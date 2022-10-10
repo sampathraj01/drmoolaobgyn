@@ -54,28 +54,38 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/about">
+                      <Link href="/contact">
                         <a>Contact</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/service-details">
                         <a>Services</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/faq">
+                      <Link href="/privacy-policy">
                         <a>Insurance</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/doctor">
+                      <Link href="/services">
                         <a>Forms</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/contact">
+                      <Link href="/terms-condition">
                         <a>Hospitals</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/terms-condition">
+                        <a>Our Office</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/sign-in">
+                        <a>Admin</a>
                       </Link>
                     </li>
                   </ul>
@@ -159,9 +169,10 @@ const Footer = () => {
         <div className="container">
           <div className="copyright-item">
             <p>
-              Copyright &copy; {currentYear} Design & Developed by{' '}
-              <a href="https://hibootstrap.com/" target="_blank">
-                HiBootstrap
+              Copyright &copy; {currentYear} Sudha Moola Ob/Gyn <br></br>Powered
+              by
+              <a href="http://cloudbsoft.com/" target="_blank">
+                cloudbsoft
               </a>
             </p>
           </div>
