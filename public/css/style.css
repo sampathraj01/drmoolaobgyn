@@ -4974,9 +4974,10 @@ footer {
 .faq-content .accordion .accordion__panel p {
   color: #344c5d;
 }
-.form-button{
-  font-size:larger;
-  border-radius: 14px;
-  /* padding: 40px 70px; */
-}
+/* .carousel-main-slide{
+  padding-left: 250px;
+  width: 900px;
+  height: 400px;
+  padding-bottom: 150px;
+} */
 /*# sourceMappingURL=style.css.map */
