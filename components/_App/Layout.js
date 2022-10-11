@@ -13,18 +13,18 @@ const Layout = ({ children }) => {
         />
         <meta
           name="description"
-          content="Disin - React Next Medical Health & Doctors Template"
+          content="DrMoolaObgyn"
         />
         <meta
           name="og:title"
           property="og:title"
-          content="Disin - React Next Medical Health & Doctors Template"
+          content="DrMoolaObgyn"
         ></meta>
         <meta
           name="twitter:card"
-          content="Disin - React Next Medical Health & Doctors Template"
+          content="DisDrMoolaObgynn"
         ></meta>
-        <link rel="canonical" href="https://disin-react.envytheme.com/"></link>
+        <link rel="canonical" href="https://-react.envytheme.com/"></link>
       </Head>
 
       {children}

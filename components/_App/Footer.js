@@ -15,9 +15,9 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      <a href="mailto:info@disin.com">myob.hr@gmail.com</a>
+                      <a href="mailto:info@DrMoolaObgyn.com">myob.hr@gmail.com</a>
                       <a></a>
-                      {/* <a href="mailto:hello@disin.com">hello@disin.com</a> */}
+                      {/* <a href="mailto:hello@DrMoolaObgyn.com">hello@DrMoolaObgyn.com</a> */}
                     </li>
                     <li>
                       <i className="icofont-stock-mobile"></i>

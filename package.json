@@ -1,7 +1,7 @@
 {
-    "name": "disin",
+    "name": "DrMoolaObgyn",
     "version": "1.3.0",
-    "description": "Disin - React Next Medical Health & Doctors Template",
+    "description": "DrMoolaObgyn - React Next Medical Health & Doctors Template",
     "main": "index3.js",
     "scripts": {
         "dev": "next dev",
