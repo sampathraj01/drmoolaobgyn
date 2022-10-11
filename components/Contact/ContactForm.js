@@ -58,7 +58,7 @@ const ContactForm = () => {
           <div className="col-lg-7 p-0">
             <div className="drop-item drop-img">
               <div className="drop-left">
-                <h2>Drop your message for any info or question</h2>
+                <h2>Get in Touch</h2>
 
                 <form id="contactForm" onSubmit={handleSubmit(onSubmit)}>
                   <div className="row">

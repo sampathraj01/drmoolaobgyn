@@ -19,7 +19,7 @@ const MainBanner = () => {
               </p>
 
               <div className="common-btn-two">
-                <Link href="/index-3">
+                <Link href="/appointment">
                   <a>Get Appointment</a>
                 </Link>
                 <Link href="/about">

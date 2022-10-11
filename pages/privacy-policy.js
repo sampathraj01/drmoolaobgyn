@@ -3,7 +3,7 @@ import TopHeader from '../components/_App/TopHeader'
 import Navbar from '../components/_App/Navbar'
 import PageBanner from '../components/Common/PageBanner'
 import Footer from '../components/_App/Footer'
-import ContactForm from '../components/Contact/ContactForm'
+import ContactForm2 from '../components/Contact/ContactForm2'
 
 const PrivacyPolicy = () => {
   return (
@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
 
       <PageBanner
         pageTitle="Insurance"
-        homePageUrl="=/index-3"
+        homePageUrl="/index-3"
         homePageText="Home"
         activePageText="Insurance"
         bgImage="page-title-one"
@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
         </div>
       </div>
 
-      <ContactForm />
+      <ContactForm2 />
       <Footer />
     </>
   )

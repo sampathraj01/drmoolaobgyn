@@ -58,7 +58,7 @@ const ContactForm2 = () => {
           <div className="col-lg-7 p-0">
             <div className="drop-item drop-img">
               <div className="drop-left">
-                <h2>Drop your message for any info or question</h2>
+                <h2>Book Appointment</h2>
 
                 <form id="contactForm" onSubmit={handleSubmit(onSubmit)}>
                   <div className="row">
@@ -67,7 +67,7 @@ const ContactForm2 = () => {
                         <input
                           type="text"
                           name="name"
-                          placeholder="Your Name(required)"
+                          placeholder="Name(required)"
                           className="form-control"
                           value={contact.name}
                           onChange={handleChange}
@@ -110,12 +110,57 @@ const ContactForm2 = () => {
                         <input
                           type="text"
                           name="number"
-                          placeholder="Your Email(required)"
+                          placeholder="Email(required)"
                           className="form-control"
                           value={contact.number}
                           onChange={handleChange}
                           ref={register({ required: true })}
                         />
+                        <div
+                          className="invalid-feedback"
+                          style={{ display: 'block' }}
+                        >
+                          {errors.number && 'Number is required.'}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-12 col-md-12">
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          name="number"
+                          placeholder="Date(required)"
+                          className="form-control"
+                          value={contact.number}
+                          onChange={handleChange}
+                          ref={register({ required: true })}
+                        />
+                        <div
+                          className="invalid-feedback"
+                          style={{ display: 'block' }}
+                        >
+                          {errors.number && 'Number is required.'}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-12 col-md-12">
+                      <div className="form-group">
+                        <p style={{ marginLeft: '20px' }}>Timing:</p>
+                        <input
+                          style={{ marginLeft: '20px' }}
+                          type="radio"
+                          name="time"
+                        />
+                        &nbsp;&nbsp;Morning
+                        <br />
+                        <input
+                          style={{ marginLeft: '20px' }}
+                          type="radio"
+                          name="time"
+                        />
+                        &nbsp;&nbsp;Afternoon
                         <div
                           className="invalid-feedback"
                           style={{ display: 'block' }}
@@ -151,7 +196,7 @@ const ContactForm2 = () => {
                           name="text"
                           cols="30"
                           rows="5"
-                          placeholder="Write your message..."
+                          placeholder="Notes"
                           className="form-control"
                           value={contact.text}
                           onChange={handleChange}
@@ -168,7 +213,7 @@ const ContactForm2 = () => {
 
                     <div className="col-lg-12 col-sm-12">
                       <button type="submit" className="drop-btn">
-                        Send Message
+                        Book Appointment
                       </button>
                     </div>
                   </div>

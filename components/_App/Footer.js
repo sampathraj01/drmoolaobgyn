@@ -15,7 +15,9 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      <a href="mailto:info@DrMoolaObgyn.com">myob.hr@gmail.com</a>
+                      <a href="mailto:info@DrMoolaObgyn.com">
+                        myob.hr@gmail.com
+                      </a>
                       <a></a>
                       {/* <a href="mailto:hello@DrMoolaObgyn.com">hello@DrMoolaObgyn.com</a> */}
                     </li>
@@ -79,7 +81,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/terms-condition">
+                      <Link href="/testimonials">
                         <a>Our Office</a>
                       </Link>
                     </li>
@@ -170,7 +172,7 @@ const Footer = () => {
           <div className="copyright-item">
             <p>
               Copyright &copy; {currentYear} Sudha Moola Ob/Gyn <br></br>Powered
-              by
+              by&nbsp;
               <a href="http://cloudbsoft.com/" target="_blank">
                 cloudbsoft
               </a>
